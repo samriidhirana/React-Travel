@@ -15,7 +15,7 @@ const Navbar = () => {
             {/* <NavLink to="/" className="brand-icon">
               Ryoko
             </NavLink> */}
-            <img src="../../public/images/sun.png" alt='sun' className="logo-img"></img>
+            <img src="/images/sun.png" alt='sun' className="logo-img"></img>
             <span className="brand-icon">Ryoko</span>
           </div>
           <div className="main-links">
