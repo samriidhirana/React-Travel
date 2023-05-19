@@ -14,13 +14,14 @@ font-family: 'PT Sans Narrow', sans-serif; */
 }
 
 .logo-img{
-    height: 4rem;
-    width: 4rem;
+    height: 4.4rem;
+    width: 4.4rem;
     position: absolute;
     z-index: -1;
     margin: 0 auto;
     left: 0;
     right: 0;
+    top: -0.4rem;
 }
 
 .brand-icon{
@@ -28,6 +29,7 @@ font-family: 'PT Sans Narrow', sans-serif; */
     font-size: 2.2rem;
     font-weight: 500;
     cursor: pointer;
+    text-shadow: 2px 2px black;
 }
 
 .navbar{
@@ -59,6 +61,7 @@ font-family: 'PT Sans Narrow', sans-serif; */
 .heart-icon{
     font-size: 1.8rem;
     cursor: pointer;
+    
 }
 
 .fav-num{
