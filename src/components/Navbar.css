@@ -1,0 +1,66 @@
+/* font-family: 'Noto Sans JP', sans-serif;
+font-family: 'Oswald', sans-serif;
+font-family: 'PT Sans Narrow', sans-serif; */
+
+.header{
+    backdrop-filter: blur(0.8);
+    color: white;
+    margin: 2rem 0 0;
+    padding: 0 10rem;
+}
+
+.logo{
+    position: relative;
+}
+
+
+.brand-icon{
+    font-family: 'Oswald', sans-serif;
+    font-size: 2rem;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: center;    
+}
+
+.main-links{
+    font-family: 'Oswald', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 400;
+    font-size: 1.2rem;
+    
+}
+
+.nav-link{
+    margin: 0 3rem;
+    letter-spacing: 2px;
+    cursor: pointer;
+}
+
+.fav-icon{
+    position: relative;
+}
+
+.heart-icon{
+    font-size: 1.8rem;
+    cursor: pointer;
+}
+
+.fav-num{
+    position: absolute;
+    top: 0;
+    right: -0.3rem;
+    padding: 0;
+    height: 0.8rem;
+    width: 0.8rem;
+    border-radius: 50%;
+    background-color: #f75060;
+    font-size: 8px;
+    text-align: center;
+}
