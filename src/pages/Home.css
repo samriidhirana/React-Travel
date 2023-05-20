@@ -1,0 +1,65 @@
+.bg-img{
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+}
+
+.mount{
+    height: 100vh;
+    width: 100vw;
+    background-size: cover;
+    background-repeat: no-repeat, no-repeat;
+    position: absolute;
+    top: 0;
+    z-index: -2;
+}
+
+.tower{
+    height: 100vh;
+    width: auto;
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: -1;
+}
+
+@media (min-width: 1025px) and (max-width: 1200px){
+    .mount{
+        height: 80vh;
+        width: 100vw;
+
+    }
+    
+    .tower{
+        height: 80vh;
+        width: auto;
+
+    }
+}
+
+@media (min-width: 769px) and (max-width: 1024px){
+    .mount{
+        height: 50vh;
+        width: 100vw;
+
+    }
+    
+    .tower{
+        height: 50vh;
+        width: auto;
+
+    }
+}
+
+@media (max-width: 768px){
+    .mount{
+        height: 30vh;
+        width: 100vw;
+    }
+    
+    .tower{
+        height: 30vh;
+        width: auto;
+    }
+}
+
