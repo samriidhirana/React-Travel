@@ -1,65 +1,110 @@
-.bg-img{
-    position: relative;
-    height: 100vh;
-    width: 100vw;
+/* font-family: 'Noto Sans JP', sans-serif;
+font-family: 'Noto Serif JP', serif;
+font-family: 'Oswald', sans-serif;
+font-family: 'Poppins', sans-serif;
+font-family: 'PT Sans Narrow', sans-serif; */
+
+.bg-img {
+  position: relative;
+  height: 100vh;
+  width: 100vw;
 }
 
-.mount{
-    height: 100vh;
-    width: 100vw;
-    background-size: cover;
-    background-repeat: no-repeat, no-repeat;
+.mount {
+  height: 100vh;
+  width: 100vw;
+  background-size: cover;
+  background-repeat: no-repeat, no-repeat;
+  position: absolute;
+  top: 0;
+  z-index: -3;
+}
+
+.tower {
+  height: 100vh;
+  width: auto;
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: -1;
+}
+
+.hero-text {
+  padding: 9rem 0 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  position: relative;
+  z-index: -2;
+  margin: 0 auto;
+}
+
+.hero-text h1 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-size: 16rem;
+  background: -webkit-linear-gradient(#ffffffd9 35%, #2b2d2f52);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  opacity: 0.5;
+  text-transform: uppercase;
+  
+}
+
+.hero-text h2{
     position: absolute;
-    top: 0;
-    z-index: -2;
+    top: 14rem;
+    font-family: 'Oswald', sans-serif;
+    font-size: 16rem;
+    text-transform: uppercase;
+    color: #ffffff;
+    font-weight: 500;
+
 }
 
-.tower{
-    height: 100vh;
+.hero-text p{
+    position: absolute;
+    top: 14rem;
+    font-family: 'Noto Serif JP', sans-serif;
+    font-weight: 900;
+    color: rgb(175, 14, 14);
+    font-size: 2rem;
+}
+
+@media (min-width: 1025px) and (max-width: 1200px) {
+  .mount {
+    height: 80vh;
+    width: 100vw;
+  }
+
+  .tower {
+    height: 80vh;
     width: auto;
-    position: absolute;
-    top: 0;
-    right: 0;
-    z-index: -1;
+  }
 }
 
-@media (min-width: 1025px) and (max-width: 1200px){
-    .mount{
-        height: 80vh;
-        width: 100vw;
+@media (min-width: 769px) and (max-width: 1024px) {
+  .mount {
+    height: 50vh;
+    width: 100vw;
+  }
 
-    }
-    
-    .tower{
-        height: 80vh;
-        width: auto;
-
-    }
+  .tower {
+    height: 50vh;
+    width: auto;
+  }
 }
 
-@media (min-width: 769px) and (max-width: 1024px){
-    .mount{
-        height: 50vh;
-        width: 100vw;
+@media (max-width: 768px) {
+  .mount {
+    height: 30vh;
+    width: 100vw;
+  }
 
-    }
-    
-    .tower{
-        height: 50vh;
-        width: auto;
-
-    }
+  .tower {
+    height: 30vh;
+    width: auto;
+  }
 }
-
-@media (max-width: 768px){
-    .mount{
-        height: 30vh;
-        width: 100vw;
-    }
-    
-    .tower{
-        height: 30vh;
-        width: auto;
-    }
-}
-
