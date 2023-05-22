@@ -7,14 +7,7 @@ const Home = () => {
   const parallax_ex = document.querySelectorAll('.parallax');
   let xValue=0, yValue=0;
 
-  window.addEventListener("mousemove", (event) => {
-    xValue = event.clientX - window.innerWidth / 2;
-    yValue = event.clientY - window.innerHeight / 2;
-
-    
-
-
-    // console.log(xValue, yValue)
+  const onPageLoad = () => {
     parallax_ex.forEach((curElem) => {
       let speedx = curElem.dataset.speedx;
       let speedy = curElem.dataset.speedy;
@@ -25,6 +18,19 @@ const Home = () => {
       curElem.style.transform = `translateX(calc(-50% + ${-xValue * speedx}px)) translateY(calc(-50% + ${-yValue * speedy}px))`;
       // perspective(23000px) translateZ(${zValue}px)
     })
+  }
+
+  onPageLoad();
+
+  window.addEventListener("mousemove", (event) => {
+    xValue = event.clientX - window.innerWidth / 2;
+    yValue = event.clientY - window.innerHeight / 2;
+
+    
+    onPageLoad();
+
+    // console.log(xValue, yValue)
+    
   })
 
   return (

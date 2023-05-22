@@ -23,15 +23,15 @@ const Navbar = () => {
           {/* <span className="nav-link">About Us</span>
           <span className="nav-link">Destination</span>
           <span className="nav-link">Activities</span> */}
-            <NavLink to="/about-us" className='underline'>
+            <NavLink to="/about-us" className={({ isActive }) => (isActive ? 'underline active' : 'underline')}>
               <span className="navi-link">About Us</span>
             </NavLink>
-            <NavLink to="/destinations" className='underline'>
+            <NavLink to="/destinations" className={({ isActive }) => (isActive ? 'underline active' : 'underline')}>
               <span className="navi-link">
               Destination
               </span>
             </NavLink>
-            <NavLink to="/activities" className='underline'>
+            <NavLink to="/activities" className={({ isActive }) => (isActive ? 'underline active' : 'underline')}>
               <span className="navi-link">
               Activities
               </span>  
@@ -39,7 +39,7 @@ const Navbar = () => {
           </div>
           <div className="fav-icon">
             <div>
-              <NavLink to='/favorites'>
+              <NavLink to='/favorites' className={({ isActive }) => (isActive ? 'underline active' : 'underline')}>
               <FontAwesomeIcon icon={faHeart} className="heart-icon" />  
               </NavLink>
             </div>

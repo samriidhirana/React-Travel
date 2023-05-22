@@ -64,12 +64,22 @@ font-family: 'PT Sans Narrow', sans-serif; */
     /* margin: 0 22rem; */
 }
 
+
+/* .navi-links a.active{
+        color: #fff;
+        background: #7600dc;
+} */
+
 .navi-link{
     margin: 0 3rem;
     letter-spacing: 2px;
     cursor: pointer;
     color: white;
     text-decoration: none;
+}
+
+.main-links a.active {
+    background: #7600dc;
 }
 
 .fav-icon{
