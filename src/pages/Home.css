@@ -3,48 +3,60 @@ font-family: 'Noto Serif JP', serif;
 font-family: 'Oswald', sans-serif;
 font-family: 'Poppins', sans-serif;
 font-family: 'PT Sans Narrow', sans-serif; */
+.parallax{
+  pointer-events: none;
+  transform: translate(-50%, -50%);
+  transition: 0.45s cubic-bezier(.2,.49,.32,.99);
+}
 
 .bg-img {
   position: relative;
   height: 100vh;
   width: 100vw;
+  overflow: hidden;
 }
 
 .mount {
-  height: 100vh;
-  width: 100vw;
-  background-size: cover;
-  background-repeat: no-repeat, no-repeat;
+  /* height: 1500px;
+  width: 2800px; */
+  /* background-size: cover;
+  background-repeat: no-repeat, no-repeat; */
+  height: 1500px;
+  width: 2200px;
   position: absolute;
-  top: 0;
+  top: calc(0% + 450px);
+  left: calc(50% + 113px);
   z-index: -3;
+  
 }
 
 .tower {
-  height: 100vh;
-  width: auto;
+  height: 1150px;
+  width: 1650px;
+  /* width: auto; */
   position: absolute;
-  top: 0;
-  right: 0;
+  top: calc(0% + 478px);
+  left: calc(50% + 128px);
   z-index: -1;
 }
 
-.hero-text {
+.hero-text1, .hero-text2 {
   padding: 9rem 0 0;
   display: flex;
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  position: relative;
   z-index: -2;
-  margin: 0 auto;
   height: 100%;
   position: absolute;
+  top: calc(0% + 590px);
+  left: calc(50% + 5px);
   margin: auto;
   width: 100%;
+  pointer-events: auto;
 }
 
-.hero-text h1 {
+.hero-text1 h1 {
   font-family: "Poppins", sans-serif;
   font-weight: 700;
   font-size: 16rem;
@@ -56,9 +68,10 @@ font-family: 'PT Sans Narrow', sans-serif; */
   text-transform: uppercase;
   position: absolute;
   top: 9rem;
+  pointer-events: auto;
 }
 
-.hero-text h2{
+.hero-text2 h2{
     position: absolute;
     top: 14rem;
     font-family: 'Oswald', sans-serif;
@@ -66,10 +79,9 @@ font-family: 'PT Sans Narrow', sans-serif; */
     text-transform: uppercase;
     color: #ffffff;
     font-weight: 500;
-
 }
 
-.hero-text p{
+.hero-text2 p{
     position: absolute;
     top: 14rem;
     font-family: 'Noto Serif JP', sans-serif;

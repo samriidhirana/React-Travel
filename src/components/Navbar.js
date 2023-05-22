@@ -5,6 +5,7 @@ import { faHeart } from "@fortawesome/free-regular-svg-icons";
 // import { NavLink } from "react-router-dom";
 
 import './Navbar.css';
+import { NavLink } from "react-router-dom";
 
 const Navbar = () => {
   return (
@@ -16,21 +17,25 @@ const Navbar = () => {
               Ryoko
             </NavLink> */}
             <img src="/images/sun.png" alt='sun' className="logo-img"></img>
-            <span className="brand-icon">Ryoko</span>
+            <NavLink to='/' className='underline'><span className="brand-icon">Ryoko</span></NavLink>
           </div>
           <div className="main-links">
-          <span className="nav-link">About Us</span>
+          {/* <span className="nav-link">About Us</span>
           <span className="nav-link">Destination</span>
-          <span className="nav-link">Activities</span>
-            {/* <NavLink to="/about" className="nav-link">
-              About Us
+          <span className="nav-link">Activities</span> */}
+            <NavLink to="/about-us" className='underline'>
+              <span className="navi-link">About Us</span>
             </NavLink>
-            <NavLink to="/about" className="nav-link">
-              About Us
+            <NavLink to="/destinations" className='underline'>
+              <span className="navi-link">
+              Destination
+              </span>
             </NavLink>
-            <NavLink to="/about" className="nav-link">
-              About Us
-            </NavLink> */}
+            <NavLink to="/activities" className='underline'>
+              <span className="navi-link">
+              Activities
+              </span>  
+            </NavLink>
           </div>
           <div className="fav-icon">
             <div>
