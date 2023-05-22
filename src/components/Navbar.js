@@ -39,7 +39,9 @@ const Navbar = () => {
           </div>
           <div className="fav-icon">
             <div>
-              <FontAwesomeIcon icon={faHeart} className="heart-icon" />
+              <NavLink to='/favorites'>
+              <FontAwesomeIcon icon={faHeart} className="heart-icon" />  
+              </NavLink>
             </div>
             <div className="fav-num">10</div>
           </div>
