@@ -2,6 +2,7 @@ import React from "react";
 import Navbar from "../components/Navbar";
 
 import "./Home.css";
+import ImageCard from "../components/ImageCard";
 
 const Home = () => {
   const parallax_ex = document.querySelectorAll('.parallax');
@@ -69,10 +70,11 @@ const Home = () => {
         </div>
       </div>
       <section className="destination-section">
-        <div className="">
-          <h1>Popular Destinations</h1>
-          <h2>Image carsole</h2>
+        <div className="destination-header">
+          <p className="destinations-para">Here are few spots to explore</p>
+          <h1 className="destinations-title">Popular Destinations</h1>
         </div>
+          <ImageCard />
       </section>
     </>
   );

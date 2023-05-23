@@ -100,6 +100,44 @@ font-family: 'PT Sans Narrow', sans-serif; */
     font-size: 2rem;
 }
 
+.destination-section{
+/* background-color: #212A3E; */
+height: 100vh;
+width: 100%;
+/* display: flex;
+align-items: center;
+justify-content: center;
+flex-direction: column; */
+padding: 10rem 10rem 0;
+position: relative;
+top: -7rem;
+/* background: -webkit-linear-gradient(#212a3e5a, #212A3E); */
+background: linear-gradient(#1b243000 20px, #1B2430 110px);
+text-align: center;
+}
+
+
+.destinations-title{
+  font-family: 'Oswald', sans-serif;
+  text-transform: uppercase;
+  color: white;
+  font-size: 2rem;
+  letter-spacing: 5px;
+}
+
+.destinations-para{
+  font-family: 'PT Sans Narrow', sans-serif;
+  text-transform: capitalize;
+  color: white;
+  font-size: 1rem;
+  letter-spacing: 3px;
+}
+
+.blue-effect{
+  height: 50px;
+  backdrop-filter: blur(10px);
+}
+
 @media (min-width: 1201px) and (max-width: 1400px) {
   .hero-text h1 {
     position: absolute;
@@ -159,7 +197,7 @@ font-family: 'PT Sans Narrow', sans-serif; */
   }
 }
 
-@media (min-width: 769px) and (max-width: 1024px) {
+@media (min-width: 850px) and (max-width: 1024px) {
   .mount {
     /* height: 40rem; */
     /* top: calc(0% + 365px);
@@ -195,7 +233,8 @@ font-family: 'PT Sans Narrow', sans-serif; */
   }
 }
 
-@media (max-width: 768px) {
+
+@media (max-width: 849px) {
 
   .bg-img{
     max-height: 60%;

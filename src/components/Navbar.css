@@ -79,7 +79,8 @@ font-family: 'PT Sans Narrow', sans-serif; */
 }
 
 .main-links a.active {
-    background: #7600dc;
+    background: #ffffff;
+    border: 25%;
 }
 
 .fav-icon{
