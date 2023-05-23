@@ -9,22 +9,22 @@ const ImageCard = () => {
         {
             url: '/images/tokyo.jpg',
             title: 'Tokyo',
-            description: 'Lorem Ipsum'
+            description: 'Lorem Ipsum Lorem Ipsum Lorem Ipsum'
         },
         {
             url: '/images/kyoto.jpg',
             title: 'Kyoto',
-            description: 'Lorem Ipsum'
+            description: 'Lorem Ipsum Lorem Ipsum Lorem Ipsum'
         },
         {
             url: '/images/nara.jpg',
             title: 'Nara',
-            description: 'Lorem Ipsum'
+            description: 'Lorem Ipsum Lorem Ipsum Lorem Ipsum'
         },
         {
             url: '/images/osaka.jpg',
             title: 'Osaka',
-            description: 'Lorem Ipsum'
+            description: 'Lorem Ipsum Lorem Ipsum Lorem Ipsum'
         },
     ]
 
