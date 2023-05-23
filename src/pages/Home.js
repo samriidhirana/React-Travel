@@ -5,6 +5,8 @@ import "./Home.css";
 
 const Home = () => {
   const parallax_ex = document.querySelectorAll('.parallax');
+  
+
   let xValue=0, yValue=0;
 
   const onPageLoad = () => {
@@ -32,6 +34,13 @@ const Home = () => {
     // console.log(xValue, yValue)
     
   })
+
+  const mainBg = document.querySelector('.bg-img');
+  console.log(mainBg);
+
+  // if(window.innerWidth >= 725){
+  //   mainBg.style.maxHeight = `${window.innerWidth * 0.2}px`;
+  // }
 
   return (
     <>

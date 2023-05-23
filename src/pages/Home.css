@@ -11,6 +11,7 @@ font-family: 'PT Sans Narrow', sans-serif; */
 
 .bg-img {
   position: relative;
+  max-height: 100vh;
   height: 100vh;
   width: 100vw;
   overflow: hidden;
@@ -21,8 +22,8 @@ font-family: 'PT Sans Narrow', sans-serif; */
   width: 2800px; */
   /* background-size: cover;
   background-repeat: no-repeat, no-repeat; */
-  height: 1500px;
-  width: 2200px;
+  height: 150.14%;
+  width: 157.14%;
   position: absolute;
   top: calc(0% + 450px);
   left: calc(50% + 113px);
@@ -31,12 +32,16 @@ font-family: 'PT Sans Narrow', sans-serif; */
 }
 
 .tower {
-  height: 1150px;
-  width: 1650px;
+  height: 120%;
+  width: 90%;
+  top: 50%;
+  right: -50%;
+  /* height: 1150px;
+  width: 1650px; */
   /* width: auto; */
   position: absolute;
-  top: calc(0% + 478px);
-  left: calc(50% + 128px);
+  /* top: calc(0% + 478px);
+  left: calc(50% + 128px); */
   z-index: -1;
 }
 
@@ -48,12 +53,17 @@ font-family: 'PT Sans Narrow', sans-serif; */
   flex-direction: column;
   z-index: -2;
   height: 100%;
-  position: absolute;
+  /* position: absolute;
   top: calc(0% + 590px);
-  left: calc(50% + 5px);
+  left: calc(50% + 5px); */
   margin: auto;
   width: 100%;
   pointer-events: auto;
+  position: absolute;
+    text-align: center;
+    width: 100%;
+    left: 50%;
+    top: 50%;
 }
 
 .hero-text1 h1 {
@@ -67,13 +77,13 @@ font-family: 'PT Sans Narrow', sans-serif; */
   opacity: 0.5;
   text-transform: uppercase;
   position: absolute;
-  top: 9rem;
+  top: 30%;
   pointer-events: auto;
 }
 
 .hero-text2 h2{
     position: absolute;
-    top: 14rem;
+    top: 35%;
     font-family: 'Oswald', sans-serif;
     font-size: 16rem;
     text-transform: uppercase;
@@ -83,7 +93,7 @@ font-family: 'PT Sans Narrow', sans-serif; */
 
 .hero-text2 p{
     position: absolute;
-    top: 14rem;
+    top: 35%;
     font-family: 'Noto Serif JP', sans-serif;
     font-weight: 900;
     color: rgb(175, 14, 14);
@@ -93,108 +103,138 @@ font-family: 'PT Sans Narrow', sans-serif; */
 @media (min-width: 1201px) and (max-width: 1400px) {
   .hero-text h1 {
     position: absolute;
-    top: 10.5rem;
+    /* top: 30%; */
     font-size: 14rem;
   }
   
   .hero-text h2{
       position: absolute;
-      top: 16rem;
+      /* top: 16rem; */
       font-size: 13rem;
   }
   
   .hero-text p{
       position: absolute;
-      top: 16rem;
+      /* top: 16rem; */
       font-size: 1.5rem;
   }
 }
 
 @media (min-width: 1025px) and (max-width: 1200px) {
+
   .mount {
-    height: 80vh;
-    width: 100vw;
+    /* height: 80vh;
+    width: 100vw; */
+    /* top: calc(0% + 450px);
+    left: calc(50% + 113px); */
+    top: 50%;
+    left: 55%;
   }
+
 
   .tower {
-    height: 80vh;
-    width: auto;
+    /* top: calc(0% + 478px);
+    left: calc(50% + 128px); */
+    top: 50%;
+    right: -70%;
+    width: 120%;
   }
 
-  .hero-text h1 {
-    font-size: 10rem;
+  .hero-text1 h1 {
+    font-size: 12rem;
     position: absolute;
-    top: 8.5rem;
+    top: 42%;
   }
   
-  .hero-text h2{
+  .hero-text2 h2{
       position: absolute;
-      top: 12rem;
+      top: 48%;
       font-size: 11rem;
   }
   
-  .hero-text p{
+  .hero-text2 p{
       position: absolute;
-      top: 12rem;
+      top: 48%;
       font-size: 1.2rem;
   }
 }
 
 @media (min-width: 769px) and (max-width: 1024px) {
   .mount {
-    height: 50vh;
-    width: 100vw;
+    /* height: 40rem; */
+    /* top: calc(0% + 365px);
+    left: calc(50% + 52px); */
+    top: 50%;
+    left: 55%;
   }
 
   .tower {
-    height: 50vh;
-    width: auto;
+    /* top: calc(0% + 271px);
+    left: calc(50% + -44px); */
+    top: 50%;
+    right: -70%;
+    width: 120%;
   }
 
-  .hero-text h1 {
+  .hero-text1 h1 {
     font-size: 9rem;
     position: absolute;
-    top: 2.5rem;
+    top: 40%;
   }
   
-  .hero-text h2{
+  .hero-text2 h2{
       position: absolute;
-      top: 5rem;
+      top: 45%;
       font-size: 9rem;
   }
   
-  .hero-text p{
+  .hero-text2 p{
       position: absolute;
-      top: 5rem;
+      top: 45%;
       font-size: 1rem;
   }
 }
 
 @media (max-width: 768px) {
+
+  .bg-img{
+    max-height: 60%;
+    height: 60vh;
+  }
+
   .mount {
-    height: 30vh;
-    width: 100vw;
+    /* top: calc(0% + 365px);
+    left: calc(50% + 52px); */
+    top: 50%;
+    left: 55%;
+    height: auto;
   }
 
   .tower {
-    height: 30vh;
-    width: auto;
+    /* height: 150%;
+    width: 130%;
+    top: calc(0% + 271px);
+    left: calc(50% + -44px); */
+    height: 100%;
+    right: -65%;
+    width: 120%;
   }
-  .hero-text h1 {
-    font-size: 6rem;
+
+  .hero-text1 h1 {
+    font-size: 8rem;
     position: absolute;
-    top: -0.8rem;
+    top: 35%;
   }
   
-  .hero-text h2{
+  .hero-text2 h2{
       position: absolute;
-      top: 1rem;
-      font-size: 5.5rem;
+      top: 40%;
+      font-size: 9rem;
   }
   
-  .hero-text p{
+  .hero-text2 p{
       position: absolute;
-      top: 0.8rem;
-      font-size: 0.8rem;
+      top: 40%;
+      font-size: 0.9rem;
   }
 }
