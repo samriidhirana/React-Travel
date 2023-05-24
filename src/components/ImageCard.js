@@ -28,7 +28,7 @@ const ImageCard = () => {
         },
     ]
 
-    console.log(DATA[0]);
+    // console.log(DATA[0]);
     
     // const cardStyle = {
     //     backgroundImage: `url('${DATA[0].url}')`,

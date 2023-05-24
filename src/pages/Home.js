@@ -1,5 +1,6 @@
 import React from "react";
 import Navbar from "../components/Navbar";
+import Map from "../components/Map";
 
 import "./Home.css";
 import ImageCard from "../components/ImageCard";
@@ -36,8 +37,8 @@ const Home = () => {
     
   })
 
-  const mainBg = document.querySelector('.bg-img');
-  console.log(mainBg);
+  // const mainBg = document.querySelector('.bg-img');
+  // console.log(mainBg);
 
   // if(window.innerWidth >= 725){
   //   mainBg.style.maxHeight = `${window.innerWidth * 0.2}px`;
@@ -69,12 +70,19 @@ const Home = () => {
           <h2>japan</h2>
         </div>
       </div>
+
       <section className="destination-section">
+        <img src='/images/forest-backdrop.jpg' alt='backdrop' className="backdrop-img"></img>
         <div className="destination-header">
           <p className="destinations-para">Here are few spots to explore</p>
           <h1 className="destinations-title">Popular Destinations</h1>
         </div>
           <ImageCard />
+      </section>
+      <section>
+        <div className="map-bg">
+          <Map />
+        </div>
       </section>
     </>
   );

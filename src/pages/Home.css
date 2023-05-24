@@ -101,19 +101,27 @@ font-family: 'PT Sans Narrow', sans-serif; */
 }
 
 .destination-section{
-/* background-color: #212A3E; */
+min-height: 100vh;
 height: 100vh;
 width: 100%;
-/* display: flex;
-align-items: center;
-justify-content: center;
-flex-direction: column; */
 padding: 10rem 10rem 0;
 position: relative;
 top: -7rem;
-/* background: -webkit-linear-gradient(#212a3e5a, #212A3E); */
 background: linear-gradient(#1b243000 20px, #1B2430 110px);
 text-align: center;
+}
+
+.backdrop-img{
+  background: radial-gradient(circle 50% 50%, #1b243000 20px, #1B2430 110px);
+  /* filter: blur(10px); */
+  backdrop-filter: blur(5px);
+  height: 87vh;
+  width: 100%;
+  position: absolute;
+  top: 7rem;
+  left: 0;
+  opacity: 0.05;
+  background-attachment: fixed;
 }
 
 
@@ -133,10 +141,16 @@ text-align: center;
   letter-spacing: 3px;
 }
 
-.blue-effect{
-  height: 50px;
-  backdrop-filter: blur(10px);
+.map-bg{
+  /* background: linear-gradient(#f1f6f900 12px, #f1f6f9 110px); */
+  background-color: #F1F6F9;
+  height: 90vh;
+  width: 100%;
+  position: relative;
+  top: -7rem;
 }
+
+
 
 @media (min-width: 1201px) and (max-width: 1400px) {
   .hero-text h1 {
