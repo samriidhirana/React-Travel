@@ -1,12 +1,19 @@
 import React from "react";
 import Navbar from "../components/Navbar";
+import Footer from "../components/Footer";
+
+import "./Destinations.css";
+import DestinationCarousel from "../components/DestinationCarousel";
 
 const Destinations = () => {
   return (
-    <div>
-      <Navbar />
-      <h1>Destinations</h1>
-    </div>
+    <section>
+      <div className="destination-hero-section">
+        <Navbar />
+        <DestinationCarousel />
+        <Footer />
+      </div>
+    </section>
   );
 };
 

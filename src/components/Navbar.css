@@ -9,8 +9,8 @@ font-family: 'PT Sans Narrow', sans-serif; */
     /* backdrop-filter: blur(0.8); */
     color: white;
     /* margin: 2rem 0 0; */
-    padding: 1.5rem 10rem;
-    position: relative;
+    padding: 2rem 10rem;
+    /* position: relative; */
     z-index: 5;
     /* margin: auto;
     position: fixed; */
@@ -19,8 +19,13 @@ font-family: 'PT Sans Narrow', sans-serif; */
 }
 
 .header-bg{
+    color: white;
     background-color: #1b2430c1;
     transition: 0.45s;
+    padding: 0 10rem;
+    position: fixed;
+    width: 100%;
+    height: 68px;
 }
 
 .logo{
@@ -53,9 +58,10 @@ font-family: 'PT Sans Narrow', sans-serif; */
 }
 
 .navbar{
+    /* padding: 8px 8px 0 8px!important;  */
     display: flex;
     align-items: center;
-    justify-content: space-between;    
+    justify-content: space-between;  
 }
 
 .main-links{
@@ -70,7 +76,7 @@ font-family: 'PT Sans Narrow', sans-serif; */
 }
 
 .navi-link{
-    margin: 0 3rem;
+    margin: 0 2rem;
     letter-spacing: 2px;
     cursor: pointer;
     color: white;
@@ -78,8 +84,10 @@ font-family: 'PT Sans Narrow', sans-serif; */
 }
 
 .main-links a.active {
-    background: #ffffff;
-    border: 25%;
+    border-bottom: 2px solid white;
+    padding: 0.8rem 0;
+    /* width: 50%; */
+    /* border-radius: 20px; */
 }
 
 .fav-icon{
