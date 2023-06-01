@@ -9,7 +9,7 @@ font-family: 'PT Sans Narrow', sans-serif; */
     transition: 0.45s cubic-bezier(.2,.49,.32,.99); */
 
 .map-section{
-    padding: 4rem 10rem;
+    padding: 4rem 10rem 0 10rem;
     position: relative;
     display: flex;
     align-items: center;
@@ -25,6 +25,7 @@ font-family: 'PT Sans Narrow', sans-serif; */
     letter-spacing: 2px;
     text-transform: uppercase;
     text-align: center;
+    margin: 0 0 5rem 0;
 }
 
 .map-area{
@@ -53,37 +54,37 @@ font-family: 'PT Sans Narrow', sans-serif; */
 
 .map-img1{
     height: 150px;
-    top: 31rem;
+    top: 40rem;
     right: 26rem;
     box-shadow: 1px 5px 7px rgba(34, 34, 34, 0.911);
 }
 .map-img2{
     height: 250px;
-    top: 42rem;
+    top: 46rem;
     right: 6rem;
     box-shadow: 1px 15px 40px rgba(34, 34, 34, 0.799);
 }
 .map-img3{
     height: 170px;
-    top: 59rem;
+    top: 63rem;
     right: 34rem;
     box-shadow: 1px 8px 18px rgba(34, 34, 34, 0.911);
 }
 .map-img4{
     height: 200px;
-    top: 54rem;
+    top: 59rem;
     left: 12rem;
     box-shadow: 1px 8px 18px rgba(34, 34, 34, 0.847);
 }
 .map-img5{
     height: 150px;
-    top: 46rem;
+    top: 54rem;
     left: 25rem;
     box-shadow: 1px 5px 5px rgba(34, 34, 34, 0.911);
 }
 .map-img6{
     height: 220px;
-    top: 24rem;
+    top: 27rem;
     left: 6rem;
     box-shadow: 0px 15px 40px rgba(34, 34, 34, 0.911);
 }

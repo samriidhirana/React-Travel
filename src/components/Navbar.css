@@ -9,13 +9,18 @@ font-family: 'PT Sans Narrow', sans-serif; */
     /* backdrop-filter: blur(0.8); */
     color: white;
     /* margin: 2rem 0 0; */
-    padding: 2rem 10rem;
+    padding: 1.5rem 10rem;
     position: relative;
-    z-index: 999;
+    z-index: 5;
     /* margin: auto;
     position: fixed; */
     position: fixed;
     width: 100%;
+}
+
+.header-bg{
+    background-color: #1b2430c1;
+    transition: 0.45s;
 }
 
 .logo{
@@ -63,12 +68,6 @@ font-family: 'PT Sans Narrow', sans-serif; */
     color: white;
     /* margin: 0 22rem; */
 }
-
-
-/* .navi-links a.active{
-        color: #fff;
-        background: #7600dc;
-} */
 
 .navi-link{
     margin: 0 3rem;

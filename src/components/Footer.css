@@ -1,0 +1,78 @@
+.footer-bg{
+    background-color: #212A3E;
+    height: 250px;
+    position: relative;
+    z-index: -2;
+    display: flex;
+    /* justify-content: space-between; */
+    align-items: center;
+    padding: 2rem 10rem;
+}
+
+.footer-info-section{
+    border-right: 1px solid white;
+    padding: 2rem 3rem 2rem 5rem;
+}
+
+.logo{
+    position: relative;
+}
+
+.footer-logo-img{
+    height: 4.4rem;
+    width: 4.4rem;
+    position: absolute;
+    z-index: -1;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    top: -0.4rem;
+}
+
+.footer-brand-icon{
+    text-decoration: none;
+    color: white;
+    font-family: 'Oswald', sans-serif;
+    font-size: 2.2rem;
+    font-weight: 500;
+    text-shadow: 2px 2px black;
+}
+
+.footer-main-links{
+    font-family: 'Oswald', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 400;
+    font-size: 1rem;
+    color: white;
+    padding: 0 0 0 2rem;
+    /* margin: 0 22rem; */
+}
+
+.footer-navi-link{
+    margin: 0 1.3rem;
+    letter-spacing: 2px;
+    cursor: pointer;
+    color: white;
+    text-decoration: none;
+}
+
+/* .underline:hover{
+    cursor: pointer;
+} */
+
+.footer-links-section{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    /* justify-content: center; */
+}
+
+.footer-about-rights{
+    font-family: 'PT Sans Narrow', sans-serif;
+    padding: 0.3rem 0 0 3.3rem;
+    letter-spacing: 1.2px;
+    color: white;
+    margin: 0;
+}

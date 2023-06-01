@@ -1,6 +1,5 @@
-import React from 'react'
-import Navbar from '../components/Navbar'
-
+import React from "react";
+import Navbar from "../components/Navbar";
 
 const Destinations = () => {
   return (
@@ -8,7 +7,7 @@ const Destinations = () => {
       <Navbar />
       <h1>Destinations</h1>
     </div>
-  )
-}
+  );
+};
 
-export default Destinations
+export default Destinations;
