@@ -3,35 +3,35 @@ import { Carousel } from "react-bootstrap";
 
 const data = [
   {
-    image: "/images/dest-img1.jpg",
+    image: "/images/destination/dest-img1.jpg",
     caption: "Caption 1",
     title: "Kyoto",
     subTitle: "きょうと • 京都",
     description: "Description Here",
   },
   {
-    image: "/images/dest-img2.jpg",
+    image: "/images/destination/dest-img2.jpg",
     caption: "Caption 2",
     title: "Osaka",
     subTitle: "	おおさか • 大坂",
     description: "Description Here",
   },
   {
-    image: "/images/dest-img3.jpg",
+    image: "/images/destination/dest-img3.jpg",
     caption: "Caption 3",
     title: "Hiroshima",
     subTitle: "ひろしま • 広島",
     description: "Description Here",
   },
   {
-    image: "/images/dest-img4.jpg",
+    image: "/images/destination/dest-img4.jpg",
     caption: "Caption 4",
     title: "Nara",
     subTitle: "なら • 奈良",
     description: "Description Here",
   },
   {
-    image: "/images/dest-img5.jpg",
+    image: "/images/destination/dest-img5.jpg",
     caption: "Caption 5",
     title: "Tokyo",
     subTitle: "とうきょう • 東京",

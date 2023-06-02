@@ -20,12 +20,12 @@ const About = () => {
         </div>
         <div className="about-images-scetion">
           <img
-            src="/images/about-img1.jpg"
+            src="/images/about/about-img1.jpg"
             alt="about-img1"
             className="about-img1"
           ></img>
           <img
-            src="/images/about-img2.jpg"
+            src="/images/about/about-img2.jpg"
             alt="about-img2"
             className="about-img2"
           ></img>

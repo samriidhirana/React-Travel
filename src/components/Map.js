@@ -29,39 +29,39 @@ const Map = () => {
       <div className="map-area">
         <h1 className="map-title">Explore through the Map</h1>
         <div>
-          <img src="/images/jp-map.png" alt="map" className="map-img"></img>
+          <img src="/images/map/jp-map.png" alt="map" className="map-img"></img>
           <img
-            src="/images/map-img1.jpg"
+            src="/images/map/map-img1.jpg"
             alt="img1"
             className="img-size map-img1"
             data-speedy="0.6"
           ></img>
           <img
-            src="/images/map-img2.jpg"
+            src="/images/map/map-img2.jpg"
             alt="img2"
             className="img-size map-img2"
             data-speedy="0.4"
           ></img>
           <img
-            src="/images/map-img3.jpg"
+            src="/images/map/map-img3.jpg"
             alt="img3"
             className="img-size map-img3"
             data-speedy="0.5"
           ></img>
           <img
-            src="/images/map-img4.jpg"
+            src="/images/map/map-img4.jpg"
             alt="img4"
             className="img-size map-img4"
             data-speedy="0.4"
           ></img>
           <img
-            src="/images/map-img5.jpg"
+            src="/images/map/map-img5.jpg"
             alt="img5"
             className="img-size map-img5"
             data-speedy="0.6"
           ></img>
           <img
-            src="/images/map-img6.jpg"
+            src="/images/map/map-img6.jpg"
             alt="img6"
             className="img-size map-img6"
             data-speedy="0.3"

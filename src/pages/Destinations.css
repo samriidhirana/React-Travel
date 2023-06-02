@@ -60,3 +60,103 @@ h1,h3{
     color: white;
     text-shadow: 2px 4px 5px rgba(3, 3, 3, 0.716);
 }
+
+.destination-cards-section{
+    background-color: #F1F6F9;
+    height: auto;
+    width: 100%;
+    padding: 3rem 10rem;
+    display: grid;
+    grid-template-columns: 20% 80%;
+    gap: 2rem;
+}
+
+@media (min-width: 1201px) and (max-width: 1400px){
+    .carousel-bg{
+        height: auto;
+    }
+
+    .destination-bg-img{
+        height: auto;
+    }
+
+.destination-info h3{
+    font-size: 3rem;
+    top: 2.5rem;
+}
+.destination-info h1{
+    font-size: 13rem;
+}
+
+.destination-info p{
+    font-size: 1.5rem;
+}
+}
+
+@media (min-width: 1025px) and (max-width: 1200px){
+    .carousel-bg{
+        height: auto;
+    }
+
+    .destination-bg-img{
+        height: auto;
+    }
+
+    .destination-info h3{
+        font-size: 2.7rem;
+        top: 2.5rem;
+    }
+    .destination-info h1{
+        font-size: 11rem;
+    }
+    
+    .destination-info p{
+        font-size: 1.2rem;
+    }
+
+}
+
+@media (min-width: 850px) and (max-width: 1024px){
+    .carousel-bg{
+        height: auto;
+    }
+
+    .destination-bg-img{
+        height: auto;
+    }
+
+    .destination-info h3{
+        font-size: 2.3rem;
+        top: 2rem;
+    }
+    .destination-info h1{
+        font-size: 9rem;
+    }
+    
+    .destination-info p{
+        font-size: 1rem;
+    }
+}
+
+@media (min-width: 608px) and (max-width: 849px){
+    .carousel-bg{
+        height: auto;
+    }
+
+    .destination-bg-img{
+        height: auto;
+    }
+
+
+    .destination-info h3{
+        font-size: 2rem;
+        top: 1.4rem;
+    }
+    .destination-info h1{
+        font-size: 7rem;
+    }
+    
+    .destination-info p{
+        font-size: 1rem;
+    }
+}
