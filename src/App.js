@@ -5,6 +5,7 @@ import Activities from "./pages/Activities";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import Contact from "./pages/Contact";
 import SingleDestination from "./pages/SingleDestination";
+import Favourite from "./pages/Favourite";
 
 const router = createBrowserRouter([
   { path: "/", element: <Home /> },
@@ -12,6 +13,7 @@ const router = createBrowserRouter([
   { path: "/activities", element: <Activities /> },
   { path: "/contact-us", element: <Contact /> },
   { path: "/destinations/:title", element: <SingleDestination /> },
+  { path: "/favorites", element: <Favourite /> },
 ]);
 
 function App() {

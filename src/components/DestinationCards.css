@@ -74,3 +74,21 @@ h1{
     font-size: 1rem;
     letter-spacing: 3px;
 }
+
+.card-heart-icon{
+    font-size: 1.8rem;
+    cursor: pointer;
+    color: white;
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+}
+
+.card-heart-icon-color{
+    font-size: 1.8rem;
+    cursor: pointer;
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    color: rgb(255, 62, 62);
+}

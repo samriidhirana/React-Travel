@@ -1,28 +1,19 @@
 import React from "react";
-import { cardData } from "../data";
+// import { cardData } from "../data";
 
 import "./DestinationCards.css";
-import { Link } from "react-router-dom";
+import Card from "./Card";
+import { useFavContext } from "../context/fav-context";
 
 const DestinationCards = () => {
+  const { cardData } = useFavContext();
+
   return (
     <div>
       <h1 className="main-title">Destionations</h1>
       <div className="card-section">
         {cardData.map((curElem, index) => {
-          return (
-            <Link to={`/destinations/${curElem.title}`} key={index}>
-              <div
-                className="destination-card"
-                style={{ backgroundImage: `url('${curElem.url}')` }}
-              >
-                <div className="card-info">
-                  <h2>{curElem.title}</h2>
-                  <p>{curElem.description}</p>
-                </div>
-              </div>
-            </Link>
-          );
+          return <Card key={index} {...curElem} />;
         })}
       </div>
     </div>
