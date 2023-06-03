@@ -20,10 +20,13 @@ const favReducer = (state, action) => {
           return curElem;
         }
       });
+
+      let favItemCount = cardAddedToFav.length;
       return {
         ...state,
         cardData: favIconClickedItem,
         favoritePageData: cardAddedToFav,
+        totalFavItems: favItemCount,
       };
     }
   }

@@ -6,9 +6,11 @@ import { faHeart } from "@fortawesome/free-regular-svg-icons";
 
 import "./Navbar.css";
 import { NavLink } from "react-router-dom";
+import { useFavContext } from "../context/fav-context";
 
 const Navbar = () => {
   const [color, setColor] = useState(false);
+  const { totalFavItems } = useFavContext();
 
   const navBarColor = () => {
     if (window.scrollY >= 90) {
@@ -66,7 +68,7 @@ const Navbar = () => {
                 <FontAwesomeIcon icon={faHeart} className="heart-icon" />
               </NavLink>
             </div>
-            <div className="fav-num">10</div>
+            <div className="fav-num">{totalFavItems}</div>
           </div>
         </nav>
       </div>

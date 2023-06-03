@@ -91,6 +91,7 @@ const initialState = {
     },
   ],
   favoritePageData: [],
+  totalFavItems: 0,
 };
 
 const FavProvider = ({ children }) => {

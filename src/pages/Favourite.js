@@ -4,13 +4,6 @@ import Card from "../components/Card";
 
 const Favourite = () => {
   const { favoritePageData } = useFavContext();
-  //   let favoriteData = [];
-
-  //   useEffect(() => {
-  //     favoriteData = cardData.filter((curElem) => {
-  //       return curElem.favorite;
-  //     });
-  //   }, [cardData]);
 
   return (
     <div>
