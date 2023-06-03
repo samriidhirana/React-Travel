@@ -15,18 +15,16 @@ const favReducer = (state, action) => {
         }
       });
 
-      let cardAddedToFav = state.cardData.filter((curElem) => {
-        if (curElem.favorite) {
-          return curElem;
-        }
-      });
+      // let cardAddedToFav = state.cardData.filter((curElem) => {
+      //   if (curElem.favorite) {
+      //     return curElem;
+      //   }
+      // });
 
-      let favItemCount = cardAddedToFav.length;
+      // let favItemCount = cardAddedToFav.length;
       return {
         ...state,
         cardData: favIconClickedItem,
-        favoritePageData: cardAddedToFav,
-        totalFavItems: favItemCount,
       };
     }
   }

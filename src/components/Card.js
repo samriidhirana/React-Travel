@@ -1,4 +1,5 @@
 import React from "react";
+import PropTypes from "prop-types";
 // import { Link } from "react-router-dom";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faHeart } from "@fortawesome/free-regular-svg-icons";
@@ -27,6 +28,14 @@ const Card = (props) => {
     </div>
     // </Link>
   );
+};
+
+Card.propTypes = {
+  id: PropTypes.number,
+  title: PropTypes.string,
+  url: PropTypes.string,
+  description: PropTypes.string,
+  favorite: PropTypes.bool,
 };
 
 export default Card;

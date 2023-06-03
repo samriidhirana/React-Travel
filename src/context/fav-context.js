@@ -1,4 +1,5 @@
-import { createContext, useContext, useEffect, useReducer } from "react";
+import { createContext, useContext, useReducer } from "react";
+import PropTypes from "prop-types";
 import reducer from "../reducers/fav-reducer";
 
 const FavContext = createContext();
@@ -105,9 +106,9 @@ const FavProvider = ({ children }) => {
     });
   };
 
-  useEffect(() => {
-    onFavIconClickHandler();
-  }, [state.cardData]);
+  // useEffect(() => {
+  //   onFavIconClickHandler();
+  // }, [state.cardData]);
 
   return (
     <FavContext.Provider value={{ ...state, onFavIconClickHandler }}>
@@ -118,6 +119,10 @@ const FavProvider = ({ children }) => {
 
 const useFavContext = () => {
   return useContext(FavContext);
+};
+
+FavProvider.propTypes = {
+  children: PropTypes.element.isRequired,
 };
 
 export { useFavContext, FavProvider };

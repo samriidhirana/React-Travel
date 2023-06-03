@@ -10,7 +10,7 @@ import { useFavContext } from "../context/fav-context";
 
 const Navbar = () => {
   const [color, setColor] = useState(false);
-  const { totalFavItems } = useFavContext();
+  const { cardData } = useFavContext();
 
   const navBarColor = () => {
     if (window.scrollY >= 90) {
@@ -68,7 +68,11 @@ const Navbar = () => {
                 <FontAwesomeIcon icon={faHeart} className="heart-icon" />
               </NavLink>
             </div>
-            <div className="fav-num">{totalFavItems}</div>
+            <div className="fav-num">
+              {cardData.filter((item) => item.favorite).length > 0
+                ? cardData.filter((item) => item.favorite).length
+                : 0}
+            </div>
           </div>
         </nav>
       </div>

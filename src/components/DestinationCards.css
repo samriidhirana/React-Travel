@@ -89,6 +89,7 @@ h1{
     cursor: pointer;
     position: absolute;
     top: 1rem;
+    z-index: 3;
     right: 1rem;
     color: rgb(255, 62, 62);
 }
