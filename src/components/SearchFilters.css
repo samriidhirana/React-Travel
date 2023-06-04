@@ -16,6 +16,7 @@ h3{
 
 .search-section h3{
     font-size: 1.5rem;
+    text-align: right;
 }
 
 input{
@@ -32,4 +33,88 @@ input{
     width: 100%;
     font-size: 1.5rem;
     padding: 1rem;
+}
+
+
+@media (min-width: 1201px) and (max-width: 1400px){
+    .search-section h3{
+        font-size: 1.2rem;
+        text-align: right;
+        
+    }
+    
+    input{
+        font-size: 8px;
+    }
+
+    .search-filter{
+        font-size: 1.2rem;
+        margin: 0;
+    }
+}
+
+@media (min-width: 1025px) and (max-width: 1200px){
+    .search-section h3{
+        font-size: 1.2rem;
+        text-align: right;
+    }
+    
+    input{
+        font-size: 8px;
+    }
+
+    .search-filter{
+        font-size: 1.2rem;
+        margin: 0;
+    }
+}
+
+@media (min-width: 850px) and (max-width: 1024px){
+    .search-section h3{
+        font-size: 1.4rem;
+        text-align: right;
+    }
+    
+    input{
+        font-size: 8px;
+    }
+
+    .search-filter{
+        font-size: 1rem;
+        margin: 0;
+    }
+}
+
+
+@media (min-width: 608px) and (max-width: 849px){
+    .search-section h3{
+        font-size: 1.2rem;
+        text-align: right;
+    }
+    
+    input{
+        font-size: 2px;
+    }
+
+    .search-filter{
+        font-size: 1rem;
+        margin: 0;
+    }
+}
+
+@media (max-width: 608px){
+    .search-section h3{
+        font-size: 1rem;
+        text-align: right;
+    }
+    
+    input{
+        font-size: 2px;
+    }
+
+    .search-filter{
+        font-size: 0.8rem;
+        margin: 0;
+        padding: 0.5rem;
+    }
 }
