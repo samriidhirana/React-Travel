@@ -5,22 +5,22 @@ import "./ImageCard.css";
 const ImageCard = () => {
   const DATA = [
     {
-      url: "/images/tokyo.jpg",
+      url: "/images/tokyoMedium.jpeg",
       title: "Tokyo",
       description: "Lorem Ipsum Lorem Ipsum Lorem Ipsum",
     },
     {
-      url: "/images/kyoto.jpg",
+      url: "/images/kyotoMedium.jpeg",
       title: "Kyoto",
       description: "Lorem Ipsum Lorem Ipsum Lorem Ipsum",
     },
     {
-      url: "/images/nara.jpg",
+      url: "/images/naraMedium.jpeg",
       title: "Nara",
       description: "Lorem Ipsum Lorem Ipsum Lorem Ipsum",
     },
     {
-      url: "/images/osaka.jpg",
+      url: "/images/osakaMedium.jpeg",
       title: "Osaka",
       description: "Lorem Ipsum Lorem Ipsum Lorem Ipsum",
     },

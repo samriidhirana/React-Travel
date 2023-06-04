@@ -10,7 +10,7 @@ h1{
 }
 .card-section{
     display: grid;
-    grid-template-columns: auto auto auto;
+    grid-template-columns: auto auto auto auto;
     gap: 3rem;
     padding: 2.5rem 0;
 }
@@ -23,13 +23,13 @@ h1{
     letter-spacing: 2px;
     text-transform: uppercase;
     /* text-decoration: underline; */
-    padding-bottom: 0.7rem;
+    /* padding-bottom: 0.7rem; */
     border-bottom: 4px solid rgb(199, 11, 11);
-    width: 40%;
+    width: 30%;
 }
 
 .destination-card{
-    height: 420px;
+    height: 400px;
     width: auto;
     background-repeat: no-repeat;
     background-size: 100%;
@@ -80,6 +80,7 @@ h1{
     cursor: pointer;
     color: white;
     position: absolute;
+    z-index: 100;
     top: 1rem;
     right: 1rem;
 }
@@ -89,7 +90,13 @@ h1{
     cursor: pointer;
     position: absolute;
     top: 1rem;
-    z-index: 3;
     right: 1rem;
     color: rgb(255, 62, 62);
+    z-index: 10;
+}
+.destination-head{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 90px;
 }

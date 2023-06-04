@@ -1,6 +1,6 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+// import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 import "./Footer.css";
 
@@ -50,7 +50,7 @@ const Footer = () => {
       </div>
       <div>
         {/* <FontAwesomeIcon icon="fa-brands fa-twitter" /> */}
-        <FontAwesomeIcon icon="fa-brands fa-twitter" />
+        {/* <FontAwesomeIcon icon="fa-brands fa-twitter" /> */}
       </div>
     </div>
   );

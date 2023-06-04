@@ -25,6 +25,25 @@ const favReducer = (state, action) => {
       return {
         ...state,
         cardData: favIconClickedItem,
+        filteredArray: favIconClickedItem,
+      };
+    }
+    case "SEARCH_DATA": {
+      // console.log(action.payload);
+      // state.filteredArray = state.cardData;
+      const newData = state.cardData.filter((curElem) => {
+        if (
+          curElem.title.toLowerCase().includes(action.payload.toLowerCase())
+        ) {
+          return curElem;
+        } else if (action.payload === " ") {
+          return curElem;
+        }
+      });
+      // console.log("data", newData);
+      return {
+        ...state,
+        filteredArray: newData,
       };
     }
   }

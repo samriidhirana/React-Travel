@@ -5,10 +5,17 @@ font-family: 'Poppins', sans-serif;
 font-family: 'PT Sans Narrow', sans-serif; */
 
 .search-section{
-    margin: 7rem 0 0;
-    font-family: 'Oswald', sans-serif;
-    font-weight: 400;
-    font-size: 2rem;
+    /* font-family: 'Oswald', sans-serif; */
+    font-family: 'PT Sans Narrow', sans-serif;
+    font-weight: 700;
+}
+
+h3{
+    margin: 0;
+}
+
+.search-section h3{
+    font-size: 1.5rem;
 }
 
 input{
@@ -17,10 +24,12 @@ input{
 
 .search-filter{
     background-color: #F1F6F9;
-    padding: 5px;
-    margin: 1rem 0 0;
+    /* margin: 0!important; */
+    margin: 0.5rem 0 0;
     height: 2rem;
-    border: 1px solid rgb(64, 64, 64);
+    border: 0.5px solid rgb(64, 64, 64);
     border-radius: 5px;
-    /* font-size: 1rem; */
+    width: 100%;
+    font-size: 1.5rem;
+    padding: 1rem;
 }

@@ -1,7 +1,6 @@
 import React from "react";
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
-import SearchFilters from "../components/SearchFilters";
 import DestinationCards from "../components/DestinationCards";
 
 import "./Destinations.css";
@@ -15,7 +14,6 @@ const Destinations = () => {
         <DestinationCarousel />
       </div>
       <div className="destination-cards-section">
-        <SearchFilters />
         <DestinationCards />
       </div>
       <Footer />

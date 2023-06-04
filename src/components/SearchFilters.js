@@ -1,12 +1,20 @@
 import React from "react";
 
 import "./SearchFilters.css";
+import { useFavContext } from "../context/fav-context";
 
 const SearchFilters = () => {
+  const { onSearchInputHandler } = useFavContext();
+
   return (
     <div className="search-section">
       <h3>Search Destinations</h3>
-      <input type="text" name="search" className="search-filter" />
+      <input
+        type="text"
+        name="search"
+        className="search-filter"
+        onChange={onSearchInputHandler}
+      />
     </div>
   );
 };
