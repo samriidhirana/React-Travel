@@ -14,8 +14,7 @@ const Card = (props) => {
     navigate(`/destinations/${title}`);
   };
   return (
-    <>
-      {/* <Link to={`/destinations/${title}`}> */}
+    <div data-aos="fade-up" data-aos-duration="1000">
       <div
         className="destination-card"
         style={{ backgroundImage: `url('${url}')` }}
@@ -28,16 +27,13 @@ const Card = (props) => {
         <FontAwesomeIcon
           icon={faHeart}
           className={favorite ? "card-heart-icon-color" : "card-heart-icon"}
-          // onClick={() => onFavIconClickHandler(id)}
           onClick={(event) => {
             event.stopPropagation();
-            // console.log("icon clicked");
             onFavIconClickHandler(id);
           }}
         />
       </div>
-      {/* </Link> */}
-    </>
+    </div>
   );
 };
 

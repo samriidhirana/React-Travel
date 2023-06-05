@@ -11,7 +11,9 @@ const DestinationCards = () => {
   return (
     <div>
       <div className="destination-head">
-        <h1 className="main-title">Destionations</h1>
+        <h1 className="main-title" data-aos="fade-right">
+          Destionations
+        </h1>
         <SearchFilters />
       </div>
       <div className="card-section">

@@ -7,7 +7,7 @@ const SearchFilters = () => {
   const { onSearchInputHandler } = useFavContext();
 
   return (
-    <div className="search-section">
+    <div className="search-section" data-aos="fade-left">
       <h3>Search Destinations</h3>
       <input
         type="text"

@@ -57,7 +57,11 @@ const DestinationCarousel = () => {
           {data.map((slide, index) => {
             return (
               <Carousel.Item key={index} className="destination-bg-img">
-                <div className="destination-info">
+                <div
+                  className="destination-info"
+                  data-aos="zoom-in"
+                  data-aos-duration="1000"
+                >
                   <h3>Visit</h3>
 
                   <h1>{slide.title}</h1>

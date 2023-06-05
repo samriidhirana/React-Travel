@@ -27,7 +27,9 @@ const Map = () => {
   return (
     <div className="map-section" id="map-section">
       <div className="map-area">
-        <h1 className="map-title">Explore through the Map</h1>
+        <h1 className="map-title" data-aos="fade-up" data-aos-duration="1000">
+          Explore through the Map
+        </h1>
         <div>
           <img src="/images/map/jp-map.png" alt="map" className="map-img"></img>
           <img

@@ -4,9 +4,11 @@ import "./About.css";
 const About = () => {
   return (
     <div className="about-bg">
-      <h1 className="about-title">About Us</h1>
+      <h1 className="about-title" data-aos="fade-right" data-aos-duration="700">
+        About Us
+      </h1>
       <div className="about-flex">
-        <div>
+        <div data-aos="fade-right" data-aos-duration="700">
           <p className="about-info">
             Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iste
             dignissimos repudiandae vitae doloremque odit cum! Consequuntur
@@ -18,7 +20,11 @@ const About = () => {
             voluptatibus.
           </p>
         </div>
-        <div className="about-images-scetion">
+        <div
+          className="about-images-scetion"
+          data-aos="fade-left"
+          data-aos-duration="700"
+        >
           <img
             src="/images/about/about-img1Medium.jpeg"
             alt="about-img1"

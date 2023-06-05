@@ -71,7 +71,11 @@ const Home = () => {
           className="backdrop-img"
         ></img> */}
         <div className="destination-info-section">
-          <div className="destination-header">
+          <div
+            className="destination-header"
+            data-aos="fade-up"
+            data-aos-duration="1000"
+          >
             <p className="destinations-para">Here are few spots to explore</p>
             <h1 className="destinations-title">Popular Destinations</h1>
           </div>

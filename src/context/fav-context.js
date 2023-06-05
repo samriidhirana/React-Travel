@@ -12,6 +12,7 @@ const initialState = {
       title: "asakusa",
       description: "Lorem Ipsum Lorem Ipsum Lorem Ipsum",
       favorite: false,
+      popular: false,
     },
     {
       id: 2,
@@ -19,13 +20,15 @@ const initialState = {
       title: "shibuya",
       description: "Lorem Ipsum Lorem Ipsum Lorem Ipsum",
       favorite: false,
+      popular: false,
     },
     {
       id: 3,
-      url: "/images/destination/card-img3Medium.jpeg",
+      url: "/images/destination/kyotoMedium.jpeg",
       title: "kyoto",
       description: "Lorem Ipsum Lorem Ipsum Lorem Ipsum",
       favorite: false,
+      popular: true,
     },
     {
       id: 4,
@@ -33,20 +36,23 @@ const initialState = {
       title: "yokohama",
       description: "Lorem Ipsum Lorem Ipsum Lorem Ipsum",
       favorite: false,
+      popular: false,
     },
     {
       id: 5,
-      url: "/images/destination/card-img5Medium.jpeg",
+      url: "/images/destination/osakaMedium.jpeg",
       title: "osaka",
       description: "Lorem Ipsum Lorem Ipsum Lorem Ipsum",
       favorite: false,
+      popular: true,
     },
     {
       id: 6,
-      url: "/images/destination/card-img6Medium.jpeg",
+      url: "/images/destination/naraMedium.jpeg",
       title: "nara",
       description: "Lorem Ipsum Lorem Ipsum Lorem Ipsum",
       favorite: false,
+      popular: true,
     },
     {
       id: 7,
@@ -54,6 +60,7 @@ const initialState = {
       title: "ginza",
       description: "Lorem Ipsum Lorem Ipsum Lorem Ipsum",
       favorite: false,
+      popular: false,
     },
     {
       id: 8,
@@ -61,6 +68,7 @@ const initialState = {
       title: "akihabara",
       description: "Lorem Ipsum Lorem Ipsum Lorem Ipsum",
       favorite: false,
+      popular: false,
     },
     {
       id: 9,
@@ -68,6 +76,7 @@ const initialState = {
       title: "sapporo",
       description: "Lorem Ipsum Lorem Ipsum Lorem Ipsum",
       favorite: false,
+      popular: false,
     },
     {
       id: 10,
@@ -75,6 +84,7 @@ const initialState = {
       title: "Mt Fuji",
       description: "Lorem Ipsum Lorem Ipsum Lorem Ipsum",
       favorite: false,
+      popular: false,
     },
     {
       id: 11,
@@ -82,13 +92,15 @@ const initialState = {
       title: "kabukicho",
       description: "Lorem Ipsum Lorem Ipsum Lorem Ipsum",
       favorite: false,
+      popular: false,
     },
     {
       id: 12,
-      url: "/images/destination/card-img12Medium.jpeg",
+      url: "/images/destination/tokyoMedium.jpeg",
       title: "tokyo",
       description: "Lorem Ipsum Lorem Ipsum Lorem Ipsum",
       favorite: false,
+      popular: true,
     },
   ],
   filteredArray: [
@@ -98,6 +110,7 @@ const initialState = {
       title: "asakusa",
       description: "Lorem Ipsum Lorem Ipsum Lorem Ipsum",
       favorite: false,
+      popular: false,
     },
     {
       id: 2,
@@ -105,13 +118,15 @@ const initialState = {
       title: "shibuya",
       description: "Lorem Ipsum Lorem Ipsum Lorem Ipsum",
       favorite: false,
+      popular: false,
     },
     {
       id: 3,
-      url: "/images/destination/card-img3Medium.jpeg",
+      url: "/images/destination/kyotoMedium.jpeg",
       title: "kyoto",
       description: "Lorem Ipsum Lorem Ipsum Lorem Ipsum",
       favorite: false,
+      popular: true,
     },
     {
       id: 4,
@@ -119,20 +134,23 @@ const initialState = {
       title: "yokohama",
       description: "Lorem Ipsum Lorem Ipsum Lorem Ipsum",
       favorite: false,
+      popular: false,
     },
     {
       id: 5,
-      url: "/images/destination/card-img5Medium.jpeg",
+      url: "/images/destination/osakaMedium.jpeg",
       title: "osaka",
       description: "Lorem Ipsum Lorem Ipsum Lorem Ipsum",
       favorite: false,
+      popular: true,
     },
     {
       id: 6,
-      url: "/images/destination/card-img6Medium.jpeg",
+      url: "/images/destination/naraMedium.jpeg",
       title: "nara",
       description: "Lorem Ipsum Lorem Ipsum Lorem Ipsum",
       favorite: false,
+      popular: true,
     },
     {
       id: 7,
@@ -140,6 +158,7 @@ const initialState = {
       title: "ginza",
       description: "Lorem Ipsum Lorem Ipsum Lorem Ipsum",
       favorite: false,
+      popular: false,
     },
     {
       id: 8,
@@ -147,6 +166,7 @@ const initialState = {
       title: "akihabara",
       description: "Lorem Ipsum Lorem Ipsum Lorem Ipsum",
       favorite: false,
+      popular: false,
     },
     {
       id: 9,
@@ -154,6 +174,7 @@ const initialState = {
       title: "sapporo",
       description: "Lorem Ipsum Lorem Ipsum Lorem Ipsum",
       favorite: false,
+      popular: false,
     },
     {
       id: 10,
@@ -161,6 +182,7 @@ const initialState = {
       title: "Mt Fuji",
       description: "Lorem Ipsum Lorem Ipsum Lorem Ipsum",
       favorite: false,
+      popular: false,
     },
     {
       id: 11,
@@ -168,13 +190,15 @@ const initialState = {
       title: "kabukicho",
       description: "Lorem Ipsum Lorem Ipsum Lorem Ipsum",
       favorite: false,
+      popular: false,
     },
     {
       id: 12,
-      url: "/images/destination/card-img12Medium.jpeg",
+      url: "/images/destination/tokyoMedium.jpeg",
       title: "tokyo",
       description: "Lorem Ipsum Lorem Ipsum Lorem Ipsum",
       favorite: false,
+      popular: true,
     },
   ],
 };
