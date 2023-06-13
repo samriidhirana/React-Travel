@@ -8,16 +8,17 @@ const Footer = () => {
   return (
     <div className="footer-bg">
       <div className="footer-info-section">
-        <div className="logo">
-          <img
-            src="/images/sun.png"
-            alt="sun"
-            className="footer-logo-img"
-          ></img>
-          <NavLink to="/" className="underline">
+        <NavLink to="/" className="underline">
+          <div className="logo">
+            <img
+              src="/images/sun.png"
+              alt="sun"
+              className="footer-logo-img"
+            ></img>
+
             <span className="footer-brand-icon">Ryoko</span>
-          </NavLink>
-        </div>
+          </div>
+        </NavLink>
       </div>
       <div className="footer-links-section">
         <div className="footer-main-links">
