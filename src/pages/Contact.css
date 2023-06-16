@@ -101,3 +101,149 @@ font-family: 'PT Sans Narrow', sans-serif; */
     padding: 2rem;
     overflow: hidden;
 }
+
+@media (min-width: 1201px) and (max-width: 1400px) {
+    .overlay h1{
+        font-size: 6.5rem;
+    }
+    
+    .overlay p{
+        font-size: 1.2rem;
+    }
+    .contact-form h1{
+        font-size: 2.2rem;
+    }
+    .form-area{
+        width: 70%;
+        padding: 2.5rem;
+    }
+    .faq-heading h2{
+        font-size: 1.5rem;
+        line-height: 12px;
+    }
+    
+    .faq-heading h1{
+        font-size: 5rem;
+        font-weight: 900;
+    }
+}
+
+@media (min-width: 1025px) and (max-width: 1200px) {
+    .overlay h1{
+        font-size: 4.8rem;
+    }
+    
+    .overlay p{
+        font-size: 1.2rem;
+    }
+    .contact-form h1{
+        font-size: 2rem;
+    }
+    .form-area{
+        width: 80%;
+        padding: 2.2rem;
+    }
+    .faq-heading h2{
+        font-size: 1.2rem;
+    }
+    
+    .faq-heading h1{
+        font-size: 4rem;
+    }
+}
+
+@media (min-width: 850px) and (max-width: 1024px) {
+    .contact-img{
+        height: auto;
+    }
+    .overlay h1{
+        font-size: 4.8rem;
+    }
+    
+    .overlay p{
+        font-size: 1.2rem;
+    }
+
+    .contact-form{
+        height: auto;
+        padding: 2rem 0;
+    }
+
+    .contact-map{
+        padding: 2rem 0;
+    }
+    .faq-heading h2{
+        font-size: 1.2rem;
+    }
+    
+    .faq-heading h1{
+        font-size: 4rem;
+    }
+    .contact-faq{
+        padding: 0 6rem 3rem;
+    }
+}
+
+@media (min-width: 608px) and (max-width: 849px){
+    .contact-img{
+        height: auto;
+    }
+    .overlay h1{
+        font-size: 4.5rem;
+    }
+    
+    .overlay p{
+        font-size: 1rem;
+    }
+
+    .contact-form{
+        height: auto;
+        padding: 2rem 0;
+    }
+
+    .contact-map{
+        padding: 2rem 0;
+    }
+    .faq-heading h2{
+        font-size: 1.2rem;
+    }
+    
+    .faq-heading h1{
+        font-size: 3.8rem;
+    }
+    .contact-faq{
+        padding: 0 4rem 3rem;
+    }
+}
+
+@media (max-width: 608px){
+    .contact-img{
+        height: auto;
+    }
+    .overlay h1{
+        font-size: 4.5rem;
+    }
+    
+    .overlay p{
+        font-size: 1rem;
+    }
+
+    .contact-form{
+        height: auto;
+        padding: 2rem 0;
+    }
+
+    .contact-map{
+        padding: 2rem 0;
+    }
+    .faq-heading h2{
+        font-size: 1rem;
+    }
+    
+    .faq-heading h1{
+        font-size: 3.5rem;
+    }
+    .contact-faq{
+        padding: 0 4rem 3rem;
+    }
+}

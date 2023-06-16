@@ -16,6 +16,7 @@ input, textarea{
     border-bottom: 2px solid black!important;
     letter-spacing: 1px;
     margin: 2px 0 10px 0!important;
+    color: rgb(83, 83, 83);
 }
 
 input:focus, textarea:focus{
@@ -68,5 +69,29 @@ input:focus, textarea:focus{
   .button:hover span:after {
     opacity: 1;
     right: 0;
+  }
+
+  @media (min-width: 1201px) and (max-width: 1400px) {
+    .form-grid{
+    gap: 15px;
+  }
+  
+  label{
+      letter-spacing: 2px;
+      font-size: 1rem;
+      font-weight: 500;
+  }
+  input, textarea{
+     font-size: 0.8rem;
+  }
+  }
+
+  @media (min-width: 1025px) and (max-width: 1200px) {
+    label{
+      font-size: 0.9rem;
+  }
+  input, textarea{
+     font-size: 0.7rem;
+  }
   }
 

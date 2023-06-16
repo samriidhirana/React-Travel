@@ -19,3 +19,35 @@
     outline: none!important;
     box-shadow: none;
 }
+
+@media (min-width: 1201px) and (max-width: 1400px) {
+    .acc-heading{
+        font-size: 1rem;
+    }
+    
+    .accordion-body {
+        font-size: 0.8rem;
+    }
+}
+
+@media (min-width: 1025px) and (max-width: 1200px) {
+    .acc-heading{
+        font-size: 0.8rem;
+        font-weight: 500;
+    }
+    
+    .accordion-body {
+        font-size: 0.7rem;
+    }
+}
+
+@media (max-width: 608px){
+    .acc-heading{
+        font-size: 1rem;
+        font-weight: 500;
+    }
+    
+    .accordion-body {
+        font-size: 0.7rem;
+    }
+}

@@ -11,7 +11,7 @@ const Contact = () => {
     <div>
       <Navbar />
       <div className="row">
-        <div className="contact-img col-7">
+        <div className="contact-img col-xl-7 col-lg-6">
           <div className="overlay">
             <h1
               className="contact-title"
@@ -25,7 +25,7 @@ const Contact = () => {
             </p>
           </div>
         </div>
-        <div className="contact-form col-5">
+        <div className="contact-form col-xl-5 col-lg-6">
           <h1 data-aos="fade-left" data-aos-duration="800">
             Get in Touch
           </h1>
@@ -51,11 +51,11 @@ const Contact = () => {
       </div>
       <div className="contact-faq" data-aos="fade-up" data-aos-duration="1000">
         <div className="row">
-          <div className="col-6 faq-heading">
+          <div className="col-lg-6 col-md-12 faq-heading">
             <h2>FAQ</h2>
             <h1>Frequently asked questions.</h1>
           </div>
-          <div className="col-6 faq-section">
+          <div className="col-lg-6 col-md-12 faq-section">
             <Accordian />
           </div>
         </div>
