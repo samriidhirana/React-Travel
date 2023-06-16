@@ -22,22 +22,19 @@ h1{
     font-size: 3rem;
     letter-spacing: 2px;
     text-transform: uppercase;
-    /* text-decoration: underline; */
-    /* padding-bottom: 0.7rem; */
     border-bottom: 4px solid rgb(199, 11, 11);
     width: 30%;
 }
 
 .destination-card{
     height: 400px;
-    width: auto;
+    width: 300px;
     background-repeat: no-repeat;
     background-size: 110%;
     overflow: hidden;
     position: relative;
     transition: 0.3s;
     background-position: center;
-    /* background-size: cover; */
 }
 
 .destination-card:hover{
@@ -54,11 +51,7 @@ h1{
     position: absolute;
     bottom: 0;
     padding: 0.6rem;
-    /* display: flex; */
     text-align: center;
-    /* align-items: center; */
-    /* justify-content: center; */
-    /* flex-direction: column; */
 }
 
 .card-info h2{
