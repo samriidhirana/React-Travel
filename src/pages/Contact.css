@@ -4,20 +4,18 @@ font-family: 'Oswald', sans-serif;
 font-family: 'Poppins', sans-serif;
 font-family: 'PT Sans Narrow', sans-serif; */
 
-.contact-section{
-    display: flex;
-    /* align-items: center;
-    justify-content: center; */
-    flex-direction: row;
+.row>*{
+    padding-right: 0!important;
+    padding-left: 0!important;
+    margin: 0;
 }
 
 .contact-img{
-    background-image: url('/public/images/Contact/contact2.jpg');
+    background-image: url('/public/images/Contact/contact2Large.jpeg');
     background-size: cover;
     background-repeat: no-repeat;
     backdrop-filter: 1px;
     height: 100vh;
-    width: 50%;
 }
 
 .overlay{
@@ -53,7 +51,6 @@ font-family: 'PT Sans Narrow', sans-serif; */
 .contact-form{
     font-family: 'Oswald', sans-serif;
     height: 100vh;
-    width: 50%;
     background-color: #212A3E;
     padding: 7rem 5rem;
     display: flex;
@@ -75,9 +72,32 @@ font-family: 'PT Sans Narrow', sans-serif; */
 }
 
 .form-area{
-    background-color: #ffffff;
+    background-color: #F1F6F9;
     border-radius: 10px;
     padding: 3rem;
     height: auto;
-    width: 88%;
+    width: 75%;
+}
+
+.contact-faq{
+    padding: 0 8rem 3rem;
+}
+
+
+.faq-heading h2{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 2rem;
+    line-height: 12px;
+}
+
+.faq-heading h1{
+    font-family: 'Poppins', sans-serif;
+    font-size: 6rem;
+    font-weight: 900;
+}
+
+.faq-section{
+    padding: 2rem;
+    overflow: hidden;
 }
