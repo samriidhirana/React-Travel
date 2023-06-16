@@ -61,8 +61,8 @@
   @media (max-width: 849px) {
     .img-grid{
         /* display: grid; */
-        grid-template-columns: auto;
-        gap: 3rem;
+        grid-template-columns: auto auto;
+        gap: 2rem;
         padding: 7rem 0 0;
     }
   }

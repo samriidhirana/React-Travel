@@ -57,8 +57,8 @@ font-family: 'PT Sans Narrow', sans-serif; */
 
 @media (min-width: 1201px) and (max-width: 1400px){
     .about-bg{
-        padding:  5rem 5rem;
-        /* height: 85vh; */
+        padding:  5rem 5rem 2rem;
+        height: 85vh;
     }   
 
     .about-title{
@@ -84,7 +84,7 @@ font-family: 'PT Sans Narrow', sans-serif; */
 
     .about-bg{
         /* padding:  5rem 5rem; */
-        height: 85vh;
+        height: 80vh;
     }
     .about-title{
         font-size: 3.5rem;
@@ -110,7 +110,7 @@ font-family: 'PT Sans Narrow', sans-serif; */
 
     .about-bg{
         /* padding:  5rem 5rem; */
-        height: 85vh;
+        height: 75vh;
     }
     .about-title{
         font-size: 3.5rem;
@@ -138,8 +138,7 @@ font-family: 'PT Sans Narrow', sans-serif; */
 
     .about-bg{
         padding:  2rem 2rem;
-        min-height: 100vh;
-        height: auto;
+        height: 95vh;
     }
 
     .about-flex{
