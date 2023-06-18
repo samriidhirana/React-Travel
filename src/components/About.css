@@ -5,7 +5,8 @@ font-family: 'Poppins', sans-serif;
 font-family: 'PT Sans Narrow', sans-serif; */
 .about-bg{
     background-color: #F1F6F9;
-    height: 90vh;
+    height: auto;
+    /* height: 90vh; */
     width: 100%;
     /* position: relative;
     top: -7rem; */
@@ -27,15 +28,15 @@ font-family: 'PT Sans Narrow', sans-serif; */
 }
 
 .about-info{
-    padding: 4rem 0 0 4rem;
+    padding: 4rem;
     font-family: 'PT Sans Narrow', sans-serif;
     font-size: 1.5rem;
-    width: 40%;
     text-align: justify;
     line-height: 1.6;
 }
 .about-images-scetion{
     position: relative;
+    height: auto;
 }
 
 .about-img1{
@@ -43,15 +44,15 @@ font-family: 'PT Sans Narrow', sans-serif; */
     height: 550px;
     width: auto;
     right: 0;
-    top: -3rem;
+    top: 0;
     box-shadow: rgba(0, 0, 0, 0.535) 0px 3px 8px;
 }
 
 .about-img2{
     position: absolute;
     height: 300px;
-    right: 19rem;
-    top: 20rem;
+    right: 12rem;
+    bottom: 2rem;
     box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
 }
 
@@ -68,10 +69,11 @@ font-family: 'PT Sans Narrow', sans-serif; */
     .about-info{
         padding: 2rem 0 0 2rem;
         font-size: 1.2rem;
+        
     }
     
     .about-img1{
-        height: 500px;
+        height: 480px;
         width: auto;
     }
     
@@ -98,11 +100,13 @@ font-family: 'PT Sans Narrow', sans-serif; */
     .about-img1{
         height: 450px;
         width: auto;
+        top: 2rem;
     }
     
     .about-img2{
         height: 250px;
         right: 7rem;
+        bottom: -1rem;
     }
 }
 
@@ -119,18 +123,19 @@ font-family: 'PT Sans Narrow', sans-serif; */
     .about-info{
         padding: 2rem 0 0 2rem;
         font-size: 1.2rem;
-        width: 40%;
+        width: 84%;
     }
     
     .about-img1{
         height: 400px;
         width: auto;
-        top: -1rem;
+        top: 4rem;
     }
     
     .about-img2{
         height: 200px;
         right: 7rem;
+        bottom: -2rem;
     }
 }
 
@@ -152,7 +157,7 @@ font-family: 'PT Sans Narrow', sans-serif; */
     }
     
     .about-info{
-        padding: 0;
+        padding: 2rem;
         font-size: 1.2rem;
         width: 100%;
     }
@@ -162,17 +167,6 @@ font-family: 'PT Sans Narrow', sans-serif; */
         width: 100%;
     }
     
-    .about-img1{
-        height: 450px;
-        width: auto;
-        top: 2rem;
-        right: 3rem;
-    }
-    
-    .about-img2{
-        height: 250px;
-        right: 10rem;
-    }
 }
 
 @media (max-width: 607px){

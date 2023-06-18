@@ -82,7 +82,13 @@ font-family: 'PT Sans Narrow', sans-serif; */
     cursor: pointer;
     color: white;
     text-decoration: none;
+    /* opacity: 0.7; */
 }
+
+/* .nav-link:hover{
+    color: white;
+    opacity: 1;
+} */
 
 .main-links a.active {
     border-bottom: 2px solid white;
