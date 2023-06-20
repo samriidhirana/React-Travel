@@ -3,172 +3,113 @@ font-family: 'Noto Serif JP', serif;
 font-family: 'Oswald', sans-serif;
 font-family: 'Poppins', sans-serif;
 font-family: 'PT Sans Narrow', sans-serif; */
+
 .about-bg{
     background-color: #F1F6F9;
-    height: auto;
-    /* height: 90vh; */
-    width: 100%;
-    /* position: relative;
-    top: -7rem; */
-    padding:  5rem 5rem;
-    overflow: hidden;
+    padding: 5rem;
+    position: relative;
 }
 
-.about-flex{
-    display: flex;
-    flex-direction: row;
+.about-img{
+    /* margin: 5rem 5rem 0 5rem ; */
+    background-image: url("/public/images/about/about-img5.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 90vh;
+}
+
+.about-section{
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    background-color: #213d76db;
+    width: 40%;
+    padding: 3rem;
+    color: white;
+    text-align: justify;
 }
 
 .about-title{
     font-family: 'Oswald', sans-serif;
-    font-size: 4.5rem;
-    font-weight: 500;
-    text-transform: uppercase;
-    /* text-align: left; */
+    font-size: 4rem;
+    letter-spacing: 3px;
+    padding-bottom: 1rem;
 }
 
 .about-info{
-    padding: 4rem;
     font-family: 'PT Sans Narrow', sans-serif;
-    font-size: 1.5rem;
-    text-align: justify;
+    font-size: 1.1rem;
+    letter-spacing: 1.2px;
     line-height: 1.6;
 }
-.about-images-scetion{
-    position: relative;
-    height: auto;
-}
+  
+  /* Extra large devices (large laptops and desktops, 1200px and up) */
+/* @media only screen and (min-width: 1200px) {
+} */
 
-.about-img1{
-    position: absolute;
-    height: 550px;
-    width: auto;
-    right: 0;
-    top: 0;
-    box-shadow: rgba(0, 0, 0, 0.535) 0px 3px 8px;
-}
-
-.about-img2{
-    position: absolute;
-    height: 300px;
-    right: 12rem;
-    bottom: 2rem;
-    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
-}
-
-@media (min-width: 1201px) and (max-width: 1400px){
-    .about-bg{
-        padding:  5rem 5rem 2rem;
-        height: 85vh;
-    }   
-
-    .about-title{
-        font-size: 4rem;
-    }
-    
-    .about-info{
-        padding: 2rem 0 0 2rem;
-        font-size: 1.2rem;
-        
-    }
-    
-    .about-img1{
-        height: 480px;
-        width: auto;
-    }
-    
-    .about-img2{
-        height: 280px;
-    }
-}
-
-@media (min-width: 1025px) and (max-width: 1200px) {
-
-    .about-bg{
-        /* padding:  5rem 5rem; */
+   /* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) and (max-width: 1999px) {
+    .about-img{
         height: 80vh;
     }
+
+    .about-section{
+        width: 45%;
+    }
+
     .about-title{
-        font-size: 3.5rem;
+        font-size: 3rem;
     }
     
     .about-info{
-        padding: 2rem 0 0 2rem;
-        font-size: 1.2rem;
+        font-size: 1rem;
+    }
+} 
+
+   /* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    .about-img{
+        height: 60vh;
+    }
+
+    .about-section{
+        width: 45%;
+    }
+
+    .about-title{
+        font-size: 2.2rem;
     }
     
-    .about-img1{
-        height: 450px;
-        width: auto;
-        top: 2rem;
+    .about-info{
+        font-size: 0.8rem;
     }
-    
-    .about-img2{
-        height: 250px;
-        right: 7rem;
-        bottom: -1rem;
-    }
-}
-
-@media (min-width: 850px) and (max-width: 1024px) {
-
+} 
+  
+    /* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) and (max-width: 767px) {
     .about-bg{
-        /* padding:  5rem 5rem; */
-        height: 75vh;
+        padding: 5rem 3rem;
     }
-    .about-title{
-        font-size: 3.5rem;
-    }
-    
-    .about-info{
-        padding: 2rem 0 0 2rem;
-        font-size: 1.2rem;
-        width: 84%;
-    }
-    
-    .about-img1{
-        height: 400px;
-        width: auto;
-        top: 4rem;
-    }
-    
-    .about-img2{
-        height: 200px;
-        right: 7rem;
-        bottom: -2rem;
-    }
-}
-
-@media (min-width: 608px) and (max-width: 849px){
-
-    .about-bg{
-        padding:  2rem 2rem;
-        height: 95vh;
+    .about-img{
+        height: 50vh;
     }
 
-    .about-flex{
-        display: flex;
-        align-items: center;
-        flex-direction: column;
-    }
-    .about-title{
-        font-size: 3.5rem;
-        text-align: center;
-    }
-    
-    .about-info{
+    .about-section{
+        width: 55%;
         padding: 2rem;
-        font-size: 1.2rem;
-        width: 100%;
     }
 
-    .about-images-scetion{
-        /* padding: 1rem 0; */
-        width: 100%;
+    .about-title{
+        font-size: 2rem;
     }
     
+    .about-info{
+        font-size: 0.6rem;
+    }
 }
 
-@media (max-width: 607px){
+@media only screen and (max-width: 600px) {
 
 }
+

@@ -157,16 +157,6 @@ flex-direction: column;
   letter-spacing: 3px;
 }
 
-.map-bg{
-  /* background: linear-gradient(#f1f6f900 12px, #f1f6f9 110px); */
-  background-color: #F1F6F9;
-  height: auto;
-  width: 100%;
-  overflow: hidden;
-  /* padding: 2rem 0; */
-  /* position: relative;
-  top: -7rem; */
-}
 
 
 

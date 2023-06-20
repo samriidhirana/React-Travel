@@ -3,16 +3,15 @@ import "./About.css";
 
 const About = () => {
   return (
-    <div className="about-bg row">
-      <div className="col-lg-6 col-md-6 col-sm-12">
-        <h1
-          className="about-title"
-          data-aos="fade-right"
-          data-aos-duration="700"
-        >
-          About Us
-        </h1>
-        <div data-aos="fade-right" data-aos-duration="700">
+    <div className="about-bg">
+      <div className="about-img"></div>
+      <div
+        className="about-section"
+        data-aos="fade-right"
+        data-aos-duration="700"
+      >
+        <h1 className="about-title">About Us</h1>
+        <div>
           <p className="about-info">
             Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iste
             dignissimos repudiandae vitae doloremque odit cum! Consequuntur
@@ -25,8 +24,7 @@ const About = () => {
           </p>
         </div>
       </div>
-
-      <div
+      {/* <div
         className="about-images-scetion col-lg-6 col-md-6 col-sm-12"
         data-aos="fade-left"
         data-aos-duration="700"
@@ -41,7 +39,7 @@ const About = () => {
           alt="about-img2"
           className="about-img2"
         ></img>
-      </div>
+      </div> */}
     </div>
   );
 };

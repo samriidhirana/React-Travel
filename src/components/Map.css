@@ -3,20 +3,12 @@ font-family: 'Noto Serif JP', serif;
 font-family: 'Oswald', sans-serif;
 font-family: 'Poppins', sans-serif;
 font-family: 'PT Sans Narrow', sans-serif; */
-/* .parallax{
-    /* pointer-events: none; */
-    /* transform: translate(-50%, -50%);
-    transition: 0.45s cubic-bezier(.2,.49,.32,.99); */
 
 .map-section{
+    background-color: #F1F6F9;
+    height: 100vh;
     padding: 0 10rem;
     position: relative;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    overflow: hidden;
-    /* overflow-y: scroll; */
 }
 
 .map-title{
@@ -25,23 +17,15 @@ font-family: 'PT Sans Narrow', sans-serif; */
     letter-spacing: 2px;
     text-transform: uppercase;
     text-align: center;
-    margin: 0 0 5rem 0;
+    margin: 0 0 6rem 0;
 }
-
-.map-area{
-    /* overflow: scrol; */
-    width: 100%;
-    height: 90vh;
+.main-map{
+    margin: 0 auto;
     display: flex;
-    align-items: center;
-    flex-direction: column;
     justify-content: center;
 }
-
 .map-img{
-    padding: 5rem 0 0rem;
     height: 700px;
-    width: auto;
 }
 
 .img-size{
@@ -91,9 +75,9 @@ font-family: 'PT Sans Narrow', sans-serif; */
 }
 
 @media (min-width: 1401px) and (max-width: 1600px) {
-
-    .map-img{
-        padding: 5rem 0 0rem;
+    .map-section{
+        height: 90vh;
+        padding: 0 10rem;
     }
     
     .img-size{
@@ -140,6 +124,14 @@ font-family: 'PT Sans Narrow', sans-serif; */
 }
 
 @media (min-width: 1201px) and (max-width: 1400px) {
+    .map-section{
+        height: 90vh;
+        padding: 0 10rem;
+    }
+
+    .map-title{
+        margin: 0 0 4rem 0;
+    }
 
     .map-img{
         padding: 4rem 0 0rem;
@@ -181,6 +173,14 @@ font-family: 'PT Sans Narrow', sans-serif; */
 }
 
 @media (min-width: 1025px) and (max-width: 1200px) {
+    .map-section{
+        height: 90vh;
+        padding: 0 10rem;
+    }
+
+    .map-title{
+        margin: 0 0 4rem 0;
+    }
 
     .map-img{
         padding: 4rem 0 0rem;
@@ -222,6 +222,14 @@ font-family: 'PT Sans Narrow', sans-serif; */
 }
 
 @media (min-width: 850px) and (max-width: 1024px) {
+    .map-section{
+        height: 80vh;
+        padding: 0 10rem;
+    }
+
+    .map-title{
+        margin: 0 0 2rem 0;
+    }
 
     .map-img{
         padding: 4rem 0 0rem;
@@ -230,39 +238,47 @@ font-family: 'PT Sans Narrow', sans-serif; */
     
     .map-img1{
         height: 105px;
-        top: 44rem;
+        top: 34rem;
         right: 10rem;
     }
     .map-img2{
         height: 180px;
-        top: 49rem;
+        top: 39rem;
         right: 2rem;
     }
     .map-img3{
         height: 120px;
-        top: 67rem;
+        top: 57rem;
         right: 20rem;
     }
     .map-img4{
         height: 130px;
-        top: 61rem;
+        top: 51rem;
         left: 2rem;
     }
     .map-img5{
         height: 107px;
-        top: 58rem;
+        top: 49rem;
         left: 8rem;
         box-shadow: 1px 5px 5px rgba(34, 34, 34, 0.911);
     }
     .map-img6{
         height: 180px;
-        top: 31rem;
+        top: 25rem;
         left: 2rem;
         box-shadow: 0px 15px 40px rgba(34, 34, 34, 0.911);
     }
 }
 
 @media (min-width: 770px) and (max-width: 849px){
+    .map-section{
+        height: 70vh;
+        padding: 0 10rem;
+    }
+
+    .map-title{
+        margin: 0 0 2rem 0;
+    }
     .map-area{
         height: 80vh;
     }
@@ -272,33 +288,33 @@ font-family: 'PT Sans Narrow', sans-serif; */
     }
     .map-img1{
         height: 90px;
-        top: 43rem;
+        top: 31rem;
         right: 8rem;
     }
     .map-img2{
         height: 140px;
-        top: 45rem;
+        top: 35rem;
         right: 1rem;
     }
     .map-img3{
         height: 110px;
-        top: 60rem;
+        top: 50rem;
         right: 15rem;
     }
     .map-img4{
         height: 110px;
-        top: 54rem;
+        top: 44rem;
         left: 1rem;
     }
     .map-img5{
         height: 90px;
-        top: 52rem;
+        top: 42rem;
         left: 7rem;
         box-shadow: 1px 5px 5px rgba(34, 34, 34, 0.911);
     }
     .map-img6{
         height: 150px;
-        top: 28rem;
+        top: 20rem;
         left: 3rem;
         box-shadow: 0px 15px 40px rgba(34, 34, 34, 0.911);
     }

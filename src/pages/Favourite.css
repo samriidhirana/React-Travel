@@ -1,0 +1,35 @@
+/* font-family: 'Noto Sans JP', sans-serif;
+font-family: 'Noto Serif JP', serif;
+font-family: 'Oswald', sans-serif;
+font-family: 'Poppins', sans-serif;
+font-family: 'PT Sans Narrow', sans-serif; */
+
+.fav-section{
+    background-color: #F1F6F9;
+    min-height: 80vh;
+}
+
+.fav-header-img{
+    background-image: url("/public/images/about/about-img2.jpg");
+    background-size: cover;
+    background-position: 10% 59%;
+    height: 250px;
+}
+
+.fav-title{
+    text-align: center;
+    font-family: 'Oswald', sans-serif;
+    margin: 0 0 3rem 0;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.fav-card-header{
+    padding: 3rem 10rem;
+}
+
+.fav-card-section{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    gap: 3rem;
+}

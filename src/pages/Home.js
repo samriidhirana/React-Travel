@@ -86,9 +86,7 @@ const Home = () => {
         <About />
       </section>
       <section>
-        <div className="map-bg">
-          <Map />
-        </div>
+        <Map />
       </section>
       <section>
         <Footer />
